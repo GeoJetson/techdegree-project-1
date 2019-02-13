@@ -213,7 +213,7 @@ a.social:hover {
     transition: all .5s;
   }
 
-#tskills {
+ .tskills {
   background-color: #dec178;
   margin: 0px;
   padding: 10px;
