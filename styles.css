@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: cursive;
   color: #222;
   background: #f7f5f0;
 }
@@ -69,13 +69,13 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 100%;
   border: 3px solid tan;
-  transition: all .5s;
+  transition: all 3s;
 }
 
 header .profile-image:hover {
-  transform: scale(1.25) rotate(180deg);
+  transform: scale(1.5) rotate(7200deg);
 }
 .tag {
   background-color: #dec178;
@@ -86,8 +86,8 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #tan;
+  color: black;
 }
 .card {
   margin: 30px;
@@ -99,6 +99,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover {
   border-color: #ff99ff;
 }
@@ -111,14 +112,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #dec178;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: black;
 }
 
 footer {
@@ -196,6 +197,7 @@ a.social:hover {
 
   main p {
     line-height: 1.6em;
+    font-family: cursive;
   }
 
   footer {
@@ -203,5 +205,20 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+#fishing {
+    margin: 50px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
 
+    transition: all .5s;
+  }
+
+#tskills {
+  background-color: #dec178;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+
+
+}
 }
